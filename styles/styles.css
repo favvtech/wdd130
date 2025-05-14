@@ -18,5 +18,31 @@ img{
     box-shadow: 0 0 30px gray;
 }
 p{
-    padding: 10px;
+    padding: 0;
+}
+main{
+    max-width: 840px;
+}
+aside{
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid aliceblue;
+    padding: 1rem;
+    background: white;
+    /* background: linear-gradient(to bottom right, rgb(111, 197, 111), rgb(55, 77, 55)) ; */
+    color: rgb(17, 34, 49);
+    text-align: center;
+}
+aside img{
+    width: 200px;
+    height: auto;
+}
+main img{
+    width: 150px;
+    height: auto;
+}
+footer{
+    margin-top: 15px;
+    border-top: 1px solid black;
+    text-align: center;
 }
