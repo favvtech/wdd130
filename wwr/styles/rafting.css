@@ -62,12 +62,40 @@ nav, p, section, article{
 .history-image{
     width:150px;
     height: auto;
+    width: 300px;
+    /* height: 300px; */
 }
 .socialmeida a{
     text-decoration: none;
 }
+.adventure-img{
+    width: 100px;
+    height: 100px;
+}
+.image-two{
+    width: 100px;
+    height: 100px;
+}
+.image-three{
+    width: 100px;
+    height: 100px;
+}
+.image-four{
+    width: 100px;
+    height: 100px;
+}
+.image-five{
+    width: 100px;
+    height: 100px;
+}
 .hero{
     position: relative;
+}
+.socialmedia-one{
+    width: 68px;
+}
+.socialmedia-two{
+    width: 65px;
 }
 .hero img{
     width: 100%;
