@@ -46,7 +46,7 @@
     </form>
     </div>
     <div>
-        <section class="members">
+        <div class="members">
             <div class="members-intro">
             <p>Meet Our New members</p>
             </div>
@@ -58,7 +58,7 @@
             <img src="images/team-Image-2.jpg" class=" image-edit" alt="Team Member 2">
             <img src="images/team-image-3.jpg" class=" image-edit" alt="Team Member 3">
             </div>
-        </section>
+        </div>
         <form>
             <fieldset>
                 <legend>User Info</legend>
@@ -70,15 +70,16 @@
                 </div>
                 <div class="requirement-bar">
                 <p>Choose a requirement</p>
+                </div>
                 <div>
                     <!-- <p>Choose a requirement</p> -->
                     <input type="radio" id="generalinquiry" name="Inquiry" value="generalinquiry">
                     <label for="generalinquiry">General Inquiry</label>
-                    <input type="radio" id="reservationquestion" name="Inquiry" value="reservationquestion">
-                    <label for="question">Reservation Question</label>
-                    <input type="radio" id="websitesuggestion" name="Inquiry" value="websitesuggestion">
+                    <input type="radio" id="question" name="inquiry" value="reservationquestion">
+                    <label for="questions">Reservation Question</label>
+                    <input type="radio" id="questions" name="Inquiry" value="websitesuggestion">
                     <label for="websitesuggestion">Website Suggestion</label>
-                    <textarea name="text" rows="5" cols="40" placeholder="Type your message here..."></textarea>
+                    <textarea name="text" id="websitesuggestion" rows="5" cols="40" placeholder="Type your message here..."></textarea>
                     <!-- <input type="text" id="other" name="Inquiry" placeholder="Enter Inquiry" required> -->
                     <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
                     <div></div>
@@ -86,7 +87,6 @@
                 </div>
                 <div class="buttons">
                 <button type="submit">Send Us A  Message</button>
-            <!-- <button type="reset">Reset</button> -->
                 </div>
             </fieldset>
         </form>
@@ -97,9 +97,9 @@
             copyright &copy; 2025 Rafting Smiles. All rights reserved. Favour Igein.
         </nav>
         <nav class="socialmedia">
-            <a href="https://www.facebook.com" target="_blank"><img src="images/Facebook.webp" alt="facebook icon" width="38px"></a>
-            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.webp" width="38px" alt="instagram icon"></a>
-            <a href="https://www.whatsapp.com" target="_blank"><img src="images/whatsapp.webp" width="35px" alt="whatsapp icon"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/Facebook.webp" alt="facebook icon" class="facebook-icon"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.webp" class="instagram-icon" alt="instagram icon"></a>
+            <a href="https://www.whatsapp.com" target="_blank"><img src="images/whatsapp.webp" class="whatsapp-icon" alt="whatsapp icon"></a>
         </nav>
         <nav>
             <a href="https://wireframe.cc/pro/pp/7a14928fb947437">Contact Us Wireframe</a>

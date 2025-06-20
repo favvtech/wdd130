@@ -103,6 +103,15 @@ nav, p, section, article{
 .img-edit-one{
     width: 68px;
 }
+.facebook-icon{
+    width: 38px;
+}
+.instagram-icon{
+    width: 38px;
+}
+.whatsapp-icon{
+    width: 35px;
+}
 .hero img{
     width: 100%;
     height: auto;
